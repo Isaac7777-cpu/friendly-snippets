@@ -85,20 +85,6 @@
         ],
         "description": "Add a definition"
     },
-    "Proof": {
-        "prefix": "proof",
-        "body": [
-            "\\begin{proof}",
-            "\t$1",
-            "\t\\begin{displaymath}",
-            "\t\t$2",
-            "\t\\end{displaymath}",
-            "\t$3",
-            "\\end{proof}",
-            "$0"
-        ],
-        "description": "Add a proof"
-    },
     "Algorithm": {
         "prefix": "algo",
         "body": [
@@ -368,11 +354,6 @@
         ],
         "description": "Add a table (ACM)"
     },
-    "Enumerate": {
-        "prefix": "enumerate",
-        "body": ["\\\\begin{enumerate}", "\t\\item $0", "\\\\end{enumerate}"],
-        "description": "Add a enumerate"
-    },
     "Compactitem": {
         "prefix": "compactitem",
         "body": [
@@ -382,11 +363,6 @@
             "$0"
         ],
         "description": "Add a compactitem (from package paralist)"
-    },
-    "Cite": {
-        "prefix": "cite",
-        "body": ["\\cite{$1}$0"],
-        "description": "Add a cite"
     },
     "EmptyPage": {
         "prefix": "empty",
